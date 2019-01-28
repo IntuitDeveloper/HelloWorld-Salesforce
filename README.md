@@ -56,10 +56,10 @@ All the URLs & credentials being accessed in this sample app can be stored as cu
  
 These settings are included in the unmanaged package. 
 
-### Custom Objects
+### Custom Object
 A custom object has been created to store the access token and refresh token. The object is API_Token__c and contains long text fields Access_Token__c and Refresh_Token__c. During the process of authorization, a record of API_Token__c is created/updated.
  
-These objects are included in the unmanaged package. 
+This object is included in the unmanaged package. 
 
 ## Using the Unmanaged Package
 The code has been packaged and is available at:
