@@ -69,12 +69,12 @@ Note: If you are installing into a sandbox organization you must replace the ini
 The package is compatible with Winter 19 and later. Once the installation is complete, make the following config changes:
 * Navigate to Setup -> Custom Metadata Types -> ‘Sample App Info’ -> Manage Records
 * Update the Client ID and Client Secret with your client ID and client secret from the Intuit Developer site.
-* Replace <your_org> with the base URL to your sandbox org in the following fields:
+* Replace <your_org_url> with the base URL to your sandbox org in the following fields:
 * App URL
 * Callback URL
-    Example: after replacing <your_org> the URLs would look like:
-    https://na85.salesforce.com/apex/QB_ConnectedPage
-    https://na85.salesforce.com/apex/QB_OAuth2Redirect
+* Example: after replacing <your_org> the URLs would look like:
+    * https://na85.salesforce.com/apex/QB_ConnectedPage
+    * https://na85.salesforce.com/apex/QB_OAuth2Redirect
 * List the callback URL configured above as a redirect URI on the Intuit Developer site. After logging in, navigate to My Apps -> open app -> Keys -> Redirect URIs. 
 * Open webpage: https://<your_org>/apex/QB_HelloWorld to launch the Hello World application. 
 
