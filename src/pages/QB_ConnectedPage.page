@@ -1,0 +1,55 @@
+<apex:page sidebar="false" showHeader="false" controller="QB_ConnectedController">
+    <apex:slds />
+    <head>
+        <title>Hello World - Connected</title>    
+    </head>
+    <body>
+        <div class="slds-scope slds-grid_align-center slds-m-around_medium">
+            <apex:form id="company-form" >
+                <h3>
+                    CompanyInfo Entity
+                </h3>
+                <div class="slds-grid slds-grid_vertical ">
+                    <div class="slds-col slds-m-around_small">
+                        <apex:commandButton action="{!getCompanyInfo}" value="Get Company Info" />
+                    </div>
+                    <div class="slds-col slds-m-around_small">     
+                        <apex:outputText value="{!statusMessage}"></apex:outputText>
+                    </div>
+                    <div class="slds-col slds-m-around_small">                    
+                        <apex:outputText value="{!companyInfo}"></apex:outputText>
+                    </div>
+                </div>
+            </apex:form>
+            <apex:form id="account-form" >
+                <h3>
+                    Account Entity
+                </h3>
+                <div class="slds-grid">
+                    <div class="slds-col slds-m-around_small">
+                        <apex:commandButton action="{!createAccount}" value="Create Account" />
+                    </div>
+                    <div class="slds-col slds-m-around_small">
+                        <apex:inputText id="account-name-input" value="{!accountNameInput}" html-placeholder="Enter account name" />
+                    </div>
+                </div>
+                <div class="slds-grid">
+                    <div class="slds-col slds-m-around_small">
+                        <apex:commandButton action="{!getAccountById}" value="Get Account By Id" />
+                    </div>
+                    <div class="slds-col slds-m-around_small">
+                        <apex:inputText id="account-id-input" value="{!accountIdInput}" html-placeholder="Enter account ID" />
+                    </div>
+                </div>
+                <div class="slds-grid slds-grid_vertical ">
+                    <div class="slds-col slds-m-around_small">     
+                        <apex:outputText value="{!statusMessageAccount}"></apex:outputText>
+                    </div>
+                    <div class="slds-col slds-m-around_small">                    
+                        <apex:outputText value="{!accountInfo}"></apex:outputText>
+                    </div>
+                </div> 
+            </apex:form>
+        </div>
+    </body>
+</apex:page>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>AccountEntity</members>
+		<members>QB_ConnectedController</members>
+		<members>QB_ConnectedControllerTest</members>
+		<members>QB_HelloWorldController</members>
+		<members>QB_HelloWorldControllerTest</members>
+		<members>QB_OAuthRedirectController</members>
+		<members>QB_OAuthRedirectControllerTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>QB_ConnectedPage</members>
+		<members>QB_HelloWorld</members>
+		<members>QB_OAuth2Redirect</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>Sample_App_Info.Sample_App_URLs</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>API_Token__c</members>
+		<members>Sample_App_Info__mdt</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Sample_App_Info__mdt-Sample App Info Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>QB_Sample_OAuth</members>
+		<members>QB_Sandbox_Company</members>
+		<name>RemoteSiteSetting</name>
+	</types>
+	<version>39.0</version>
+</Package>

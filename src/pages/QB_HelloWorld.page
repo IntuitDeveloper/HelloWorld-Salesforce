@@ -1,0 +1,25 @@
+<apex:page sidebar="false" showHeader="false" controller="QB_HelloWorldController">
+    <apex:slds />
+    <head>
+        <title>Hello World - Home</title>    
+    </head>
+    <body>
+        <div class="slds-scope slds-grid_align-center slds-m-around_medium">
+            <apex:form id="home" >
+                <div class="slds-grid slds-grid_vertical ">
+                    <div class="slds-col slds-m-around_medium">
+                        <h3>Welcome to Intuit's Hello, World! Sample App</h3>
+                    </div>
+                    <div class="slds-col slds-m-around_medium">
+                        <apex:outputText value="{!statusMessage}"></apex:outputText>
+                    </div>
+                    <div class="slds-col slds-m-around_medium">
+                        <apex:commandButton action="{!connectToQuickbooks}" value="Connect to Quickbooks"/>    
+                    </div>
+                    
+                </div>
+            </apex:form>
+        </div>
+    </body>
+    
+</apex:page>

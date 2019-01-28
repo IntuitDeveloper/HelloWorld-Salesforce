@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains all the metadata related to the Quickbooks Sample App</description>
+    <fields>
+        <fullName>App_URL__c</fullName>
+        <description>URL containing your Salesforce VF page that should be displayed once a connection is established</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>App URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Auth_URL__c</fullName>
+        <description>Endpoint called to make the connection with Quickbooks</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Auth URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Base_URL__c</fullName>
+        <description>Base URL for all Quickbooks API callouts</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Base URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Callback_URL__c</fullName>
+        <description>URL of the page configured as the callback URL on Intuit Developer site.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Callback URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Client_ID__c</fullName>
+        <description>Contains client ID to connect to Quickbooks Company</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Client ID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Secret__c</fullName>
+        <description>Contains client secret from OAuth2.0 Dashboard</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Client Secret</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Token_URL__c</fullName>
+        <description>URL endpoint to fetch the access token &amp; refresh token</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Token URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <label>Sample App Info</label>
+    <pluralLabel>Sample App Info</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

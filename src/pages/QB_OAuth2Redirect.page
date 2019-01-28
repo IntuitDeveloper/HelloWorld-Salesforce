@@ -1,0 +1,2 @@
+<apex:page controller="QB_OAuthRedirectController" action="{!getAccessToken}">
+</apex:page>
