@@ -15,7 +15,6 @@ In order to successfully run this sample app you need a few things:
 * A Salesforce org sandbox
 * A [developer.intuit.com](http://developer.intuit.com) account
 * An app on [developer.intuit.com](http://developer.intuit.com) and the associated client id and client secret.
-* A Quickbooks Online sandbox company, connect the company with your app and generate the Oauth tokens.
  
 ## Configuration
 The files in this repository includes all the custom code, and metadata files for remote site settings and custom metadata types. A brief explanation of the code and configuration steps is provided below. You can either use the unmanaged package or clone this github project and add the files to your org manually.
