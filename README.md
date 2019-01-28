@@ -18,7 +18,7 @@ In order to successfully run this sample app you need a few things:
 * An app on [developer.intuit.com](http://developer.intuit.com) and the associated client id and client secret.
  
 ## Configuration
-The files in this repository includes all the custom code, and metadata files for remote site settings and custom metadata types. A brief explanation of the code and configuration steps is provided below. You can either use the unmanaged package or clone this github project and add the files to your org manually.
+This repository includes all the custom code, and metadata files for remote site settings and custom metadata types. A brief explanation of the code and configuration steps is provided below. You can either use the unmanaged package or clone this github project and add the files to your org manually.
  
 ### Code Structure
 This project contains 3 Visualforce pages and controllers which will handle auth and a few sample API calls.
