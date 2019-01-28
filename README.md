@@ -1,3 +1,4 @@
+[![Sample Banner](sample.png)][ss1]
 
 # HelloWorld-Salesforce
 The [Intuit Developer team](https://developer.intuit.com) has written this starter app in the Salesforce platform with Apex controllers and Visualforce pages to provide working examples of OAuth 2.0 concepts, and how to integrate with Intuit endpoints.
@@ -78,3 +79,4 @@ The package is compatible with Winter 19 and later. Once the installation is com
 * List the callback URL configured above as a redirect URI on the Intuit Developer site. After logging in, navigate to My Apps -> open app -> Keys -> Redirect URIs. 
 * Open webpage: https://<your_org>/apex/QB_HelloWorld to launch the Hello World application. 
 
+[ss1]: https://help.developer.intuit.com/s/samplefeedback?cid=9010&repoName=HelloWorld-Salesforce
