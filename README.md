@@ -39,8 +39,8 @@ These classes and pages are included in the unmanaged package.
 
 ### Remote Site Settings
 To allow Salesforce to be able to invoke external sites, we need to whitelist the Intuit oAuth platform and QB sandbox site. These sites are listed in: Setup -> Security -> Remote Site Settings -> Click on ‘New Remote Site’. The URLs are:
-https://oauth.platform.intuit.com
-https://sandbox-quickbooks.api.intuit.com
+* https://oauth.platform.intuit.com
+* https://sandbox-quickbooks.api.intuit.com
  
 These settings are included in the unmanaged package. 
  
@@ -63,11 +63,11 @@ These objects are included in the unmanaged package.
 
 ## Using the Unmanaged Package
 The code has been packaged and is available at:
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0f000000onsp
-It is compatible with Winter 19 and later. 
 
-Note: If you are installing into a sandbox organization you must replace the initial portion of the URL with http://test.salesforce.com
-Once the installation is complete, make the following config changes:
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0f000000onsp
+
+Note: If you are installing into a sandbox organization you must replace the initial portion of the URL with http://test.salesforce.com.
+The package is compatible with Winter 19 and later. Once the installation is complete, make the following config changes:
 * Navigate to Setup -> Custom Metadata Types -> ‘Sample App Info’ -> Manage Records
 * Update the Client ID and Client Secret with your client ID and client secret from the Intuit Developer site.
 * Replace <your_org> with the base URL to your sandbox org in the following fields:
